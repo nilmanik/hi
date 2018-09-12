@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Test2 is executed via Thread and Thread Id is 11]]>
+    </line>
+    <line>
+      <![CDATA[Test3 is executed via Thread and Thread Id is 12]]>
+    </line>
+    <line>
+      <![CDATA[Test1 is executed via Thread and Thread Id is 12]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118" started-at="2018-09-12T15:47:26Z" finished-at="2018-09-12T15:47:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="118" started-at="2018-09-12T15:47:26Z" finished-at="2018-09-12T15:47:26Z">
+      <class name="basics.ParrallelTest">
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:basics.ParrallelTest@7f9a81e8]" name="loginApplication" duration-ms="57" started-at="2018-09-12T21:17:26Z" finished-at="2018-09-12T21:17:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="logoutApplication()[pri:0, instance:basics.ParrallelTest@7f9a81e8]" name="logoutApplication" duration-ms="58" started-at="2018-09-12T21:17:26Z" finished-at="2018-09-12T21:17:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test3 is executed via Thread and Thread Id is 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:basics.ParrallelTest@7f9a81e8]" name="setUp" duration-ms="5" started-at="2018-09-12T21:17:26Z" finished-at="2018-09-12T21:17:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is executed via Thread and Thread Id is 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- basics.ParrallelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
